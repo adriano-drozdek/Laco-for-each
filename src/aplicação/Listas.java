@@ -23,13 +23,13 @@ public class Listas {
 		};
 		
 		System.out.println("---------------");
-		
 		list.removeIf(x -> x.charAt(0) == 'M');
-		
 		for (String x : list) {
 			System.out.println(x);
 		};
 		
+		System.out.println("---------------");
+		System.out.println("Pedro está na posição: " + list.indexOf("Pedro"));
 		
 		
 
