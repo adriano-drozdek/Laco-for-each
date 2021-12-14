@@ -30,7 +30,8 @@ public class Listas {
 		
 		System.out.println("---------------");
 		System.out.println("Pedro está na posição: " + list.indexOf("Pedro"));
-		
+		System.out.println("Identificando quem não está na lista: " + list.indexOf("Maria"));
+
 		
 
 	}
