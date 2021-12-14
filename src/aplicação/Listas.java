@@ -15,6 +15,8 @@ public class Listas {
 		list.add("João");
 		list.add(2, "Lucas");
 		
+		System.out.println("Total de " + list.size() + " pessoas na lista. ");
+		
 		for (String x : list) {
 			System.out.println(x);
 		};
