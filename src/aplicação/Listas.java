@@ -39,6 +39,9 @@ public class Listas {
 			System.out.println(x);
 		};
 		
+		System.out.println("---------------");
+		String nome = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
+		System.out.println(nome);
 
 	}
 
