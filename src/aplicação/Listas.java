@@ -13,14 +13,25 @@ public class Listas {
 		list.add("Ana");
 		list.add("Pedro");
 		list.add("João");
-		list.add(2, "Lucas");
+		list.add(2, "Marcio");
 		
 		System.out.println("Total de " + list.size() + " pessoas na lista. ");
-		list.remove(1);
+		//list.remove(1);
 		
 		for (String x : list) {
 			System.out.println(x);
 		};
+		
+		System.out.println("---------------");
+		
+		list.removeIf(x -> x.charAt(0) == 'M');
+		
+		for (String x : list) {
+			System.out.println(x);
+		};
+		
+		
+		
 
 	}
 
